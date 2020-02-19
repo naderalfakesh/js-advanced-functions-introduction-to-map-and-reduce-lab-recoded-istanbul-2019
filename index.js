@@ -24,3 +24,11 @@ function mapToSquare(arr){
 function mapToNoChange(arr){
   return [...arr];
 }
+
+function(arr){
+  const total = 0; 
+  for (const elm of arr){
+    total += elm;
+  }
+  return total;
+}
