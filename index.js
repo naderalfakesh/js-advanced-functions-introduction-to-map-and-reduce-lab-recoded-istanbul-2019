@@ -16,7 +16,7 @@ function mapToDouble(arr){
 function mapToSquare(arr){
   const result =[];
   for(const elm of arr){
-    result.push(elm^2);
+    result.push(elm**2);
   }
   return result;
 }
