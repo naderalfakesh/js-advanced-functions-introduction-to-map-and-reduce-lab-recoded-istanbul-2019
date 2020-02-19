@@ -26,7 +26,7 @@ function mapToNoChange(arr){
 }
 
 function(arr){
-  const total = 0; 
+  const total = 0;
   for (const elm of arr){
     total += elm;
   }
