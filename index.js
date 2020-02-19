@@ -13,7 +13,7 @@ function mapToDouble(arr){
   }
   return result;
 }
-function mapToDouble(arr){
+function mapToSquare(arr){
   const result =[];
   for(const elm of arr){
     result.push(elm^2);
