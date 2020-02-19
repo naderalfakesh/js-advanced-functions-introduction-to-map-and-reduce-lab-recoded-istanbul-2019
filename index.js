@@ -26,9 +26,16 @@ function mapToNoChange(arr){
 }
 
 function reduceToTotal(arr,start = 0){
-  const total = start;
+  let total = start;
   for (const elm of arr){
     total += elm;
+  }
+  return total;
+}
+function reduceToAllTrue(arr){
+  let result = false; 
+  for (const elm of arr){
+    total = total && !!elm;
   }
   return total;
 }
