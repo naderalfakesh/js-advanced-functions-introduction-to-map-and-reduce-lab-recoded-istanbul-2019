@@ -33,7 +33,7 @@ function reduceToTotal(arr,start = 0){
   return total;
 }
 function reduceToAllTrue(arr){
-  let result = false;
+  let result = true;
   for (const elm of arr){
     result = result && !!elm;
   }
