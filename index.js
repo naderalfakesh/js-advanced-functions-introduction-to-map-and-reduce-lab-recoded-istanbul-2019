@@ -35,7 +35,14 @@ function reduceToTotal(arr,start = 0){
 function reduceToAllTrue(arr){
   let result = false;
   for (const elm of arr){
-    total = total && !!elm;
+    result = result && !!elm;
   }
-  return total;
+  return result;
+}
+function reduceToAnyTrue(arr){
+  let result = false;
+  for (const elm of arr){
+    if(!!elm) return true;
+  }
+  return result;
 }
