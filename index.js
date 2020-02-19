@@ -24,3 +24,6 @@ function mapToSquare(arr){
 function mapToNoChange(arr){
   return [...arr];
 }
+
+
+
